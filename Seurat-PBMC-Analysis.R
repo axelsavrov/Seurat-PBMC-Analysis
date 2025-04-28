@@ -64,7 +64,7 @@ scater2 <- LabelPoints( plot = scater1,
                        repel = TRUE ) 
 #visualizar el scater2
 scater2 
-#obtener datos finales del objeto de seurat.                 DUDA CON ESTA PARTE
+#obtener datos finales del objeto de seurat.                 
 GetAssayData(pbmc)
 
 # Normalizamos y escalamos los datos
